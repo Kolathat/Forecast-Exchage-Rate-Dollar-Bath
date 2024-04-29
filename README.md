@@ -1,0 +1,5 @@
+# Forecasting the exchange rate of the Thai Baht against the US dollar Using External Factors
+
+This research investigates the factors influencing the exchange rate of the Thai baht against the US dollar. It employs the Autoregressive Integrated Moving Average with exogenous variables (ARIMAX) and Support Vector Regression (SVR) models to forecast the exchange rate. The performance of these models is compared using the RMSE, MAE, and MAPE metrics. Daily exchange rate data spanning 19 years and 1 month (February 2005 to February 2024; 6,968 days) is utilized. The policy interest rate serves as the exogenous variable, with monthly data for the corresponding period (229 months) incorporated into the analysis.
+
+This research found that data influence trends but not seasons. When considering the RMSE, MAE, and MAPE values of the models, it was found that the best model is ARIMAX(0,1,1), with an MAPE value of 1.24%. However, when comparing the case without additional external factors, it was found that the ARIMAX model provides the lowest percentage error in forecasting
